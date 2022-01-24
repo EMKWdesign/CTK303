@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body
+
+/*start of rainbow background*/
+  {
+  animation: 15000ms
+    /*rotation speed in milliseconds*/
+    ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color:
+      /*red*/
+      #FFAAAA;
+  }
+
+  14% {
+    background-color:
+      /*yellow*/
+      #FFFFAA;
+  }
+
+  28% {
+    background-color:
+      /*green*/
+      #AAFFAA;
+  }
+
+  42% {
+    background-color:
+      /*cyan*/
+      #AAFFFF;
+  }
+
+  70% {
+    background-color:
+      /*blue*/
+      #AAAAFF;
+  }
+
+  84% {
+    background-color:
+      /*magenta*/
+      #FFAAFF;
+  }
+
+  100% {
+    background-color:
+      /*red*/
+      #FFAAAA;
+  }
+}
+
+/*end of rainbow background*/
+canvas {
+  display: block;
+  position: relative;
+  zindex: 1;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Draxel";
+  src:url("assets/Draxel.ttf");
+}
+
+#content {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -150px;
+  color: Black;
+  font-family: Draxel;
+  font-size: 45px;
+}
+
+.buttonContainer {
+  display: inline-block;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+}
