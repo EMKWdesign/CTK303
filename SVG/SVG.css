@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "greeble";
+  src:url("assets/greeble.otf");
+}
+h1 {
+  position: absolute;
+display: inline-block;
+top: 180px;
+left: 340px;
+}
+
+body
+
+/*start of rainbow background*/
+  {
+  animation: 15000ms
+    /*rotation speed in milliseconds*/
+    ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color:
+      #f3baf3;
+  }
+  33% {
+    background-color:
+      #baf3f1;
+  }
+  66% {
+    background-color:
+      #fafaba;
+  }
+  100% {
+    background-color:
+      #f3baf3;
+  }
+}
+
+#beandog { width: 500px;
+  position: absolute;
+display: inline-block;
+top: 100px;
+left: 100px;
+overflow: visible;
+}
+
+
+  #_2A {transform-origin:72px 252px;
+    animation: linear infinite;
+  animation-duration: 3s;
+  animation-name: legs1;
+  }
+
+  #_2B {
+  transform-origin:113px 365px;
+  animation: linear infinite;
+animation-duration: 3s;
+  animation-name: legs2;}
+
+
+  #_4A {transform-origin:235px 252px;
+    animation: linear infinite;
+  animation-duration: 3s;
+    animation-name: legs3;
+  }
+
+  #_4B {transform-origin:274px 365px;
+    animation: linear infinite;
+  animation-duration: 3s;
+    animation-name: legs4;
+  }
+
+    #_1A {transform-origin:72px 252px;
+      animation: linear infinite;
+    animation-duration: 3s;
+    animation-name: legs5;
+    }
+
+    #_1B {
+    transform-origin:32px 365px;
+    animation: linear infinite;
+  animation-duration: 3s;
+    animation-name: legs6;}
+
+    #_3A {transform-origin:235px 252px;
+      animation: linear infinite;
+    animation-duration: 3s;
+    animation-name: legs7;
+    }
+
+    #_3B {
+    transform-origin:194px 365px;
+    animation: linear infinite;
+  animation-duration: 3s;
+    animation-name: legs8;}
+
+      @keyframes legs1 {
+        0%{transform: rotate(20deg);}
+        50% {transform: rotate(0deg);}
+        100%{transform: rotate(20deg);}
+      }
+      @keyframes legs2 {
+      0%{transform: translate(-40px,10px) rotate(-30deg);}
+        50% {transform: translate(0px,0px) rotate(0deg);}
+    100%{transform: translate(-40px,10px) rotate(-30deg);}
+  }
+      @keyframes legs3 {
+        0%{transform: rotate(20deg);}
+        50% {transform: rotate(0deg);}
+        100%{transform: rotate(20deg);}
+      }
+      @keyframes legs4 {
+        0%{transform: translate(-40px,10px) rotate(-30deg);}
+          50% {transform: translate(0px,0px) rotate(0deg);}
+      100%{transform: translate(-40px,10px) rotate(-30deg);}
+    }
+
+    @keyframes legs5 {
+      0%{transform: rotate(0deg);}
+      50% {transform: rotate(20deg);}
+      100%{transform: rotate(0deg);}
+    }
+    @keyframes legs6 {
+    0%{transform: translate(0px,0px) rotate(0deg);}
+      50% {transform: translate(-35px,-15px) rotate(-30deg);}
+  100%{transform: translate(0px,0px) rotate(0deg);}
+}
+    @keyframes legs7 {
+      0%{transform: rotate(0deg);}
+      50% {transform: rotate(20deg);}
+      100%{transform: rotate(0deg);}
+    }
+    @keyframes legs8 {
+      0%{transform: translate(0px,0px) rotate(0deg);}
+        50% {transform: translate(-35px,-15px) rotate(-30deg);}
+    100%{transform: translate(0px,0px) rotate(0deg);}
+  }
