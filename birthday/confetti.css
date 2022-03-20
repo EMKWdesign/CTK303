@@ -68,6 +68,21 @@ canvas {
   src:url("assets/Draxel.ttf");
 }
 
+header {
+  text-align: left;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  margin-left: -250px;
+  margin-top: -150px;
+  color: Black;
+  background-color: lightgrey;
+  font-family: Draxel;
+  font-size: 45px;
+}
+
 #content {
   text-align: center;
   width: 500px;
@@ -78,6 +93,7 @@ canvas {
   margin-left: -250px;
   margin-top: -150px;
   color: Black;
+  background-color: lightgrey;
   font-family: Draxel;
   font-size: 45px;
 }
