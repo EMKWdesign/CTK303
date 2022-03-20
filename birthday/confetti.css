@@ -98,6 +98,15 @@ header {
   font-size: 45px;
 }
 
+h1 {
+  font-size: 45px;
+  font-weight: normal;
+}
+h2{
+  font-size: 45px;
+  font-weight: normal;
+}
+
 .buttonContainer {
   display: inline-block;
 }
